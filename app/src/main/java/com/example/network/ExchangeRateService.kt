@@ -41,7 +41,7 @@ object ExchangeRateService {
             try {
                 val request = Request.Builder()
                     .url(url)
-                    .header("User-Agent", "RupeeDollarCalculator/1.0")
+                    .header("User-Agent", "Currenzo/1.0")
                     .build()
 
                 client.newCall(request).execute().use { response ->

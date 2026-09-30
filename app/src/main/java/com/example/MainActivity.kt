@@ -10,7 +10,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import com.example.ui.CalculatorScreen
-import com.example.ui.theme.RupeeDollarTheme
+import com.example.ui.theme.CurrenzoTheme
 import com.example.viewmodel.CalculatorViewModel
 
 class MainActivity : ComponentActivity() {
@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             val state by viewModel.uiState.collectAsState()
-            RupeeDollarTheme(themeMode = state.themeMode) {
+            CurrenzoTheme(themeMode = state.themeMode) {
                 CalculatorScreen(
                     viewModel = viewModel,
                     modifier = Modifier.fillMaxSize()

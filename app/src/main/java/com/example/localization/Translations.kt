@@ -61,7 +61,7 @@ enum class TranslationKey {
 }
 
 private val englishMap = mapOf(
-    TranslationKey.APP_NAME to "RupeeDollar Calculator",
+    TranslationKey.APP_NAME to "Currenzo",
     TranslationKey.CURRENCY_MODE to "Currency Mode",
     TranslationKey.CURRENCY_MODE_ON to "Currency Mode: ON",
     TranslationKey.CURRENCY_MODE_OFF to "Currency Mode: OFF",
@@ -109,7 +109,7 @@ private val englishMap = mapOf(
 )
 
 private val hindiMap = mapOf(
-    TranslationKey.APP_NAME to "रुपया डॉलर कैलकुलेटर",
+    TranslationKey.APP_NAME to "Currenzo (क्यु्रेंज़ो)",
     TranslationKey.CURRENCY_MODE to "मुद्रा मोड",
     TranslationKey.CURRENCY_MODE_ON to "मुद्रा मोड: चालू",
     TranslationKey.CURRENCY_MODE_OFF to "मुद्रा मोड: बंद",
@@ -157,7 +157,7 @@ private val hindiMap = mapOf(
 )
 
 private val hinglishMap = mapOf(
-    TranslationKey.APP_NAME to "RupeeDollar Calculator",
+    TranslationKey.APP_NAME to "Currenzo",
     TranslationKey.CURRENCY_MODE to "Currency Mode",
     TranslationKey.CURRENCY_MODE_ON to "Currency Mode: ON",
     TranslationKey.CURRENCY_MODE_OFF to "Currency Mode: OFF",
