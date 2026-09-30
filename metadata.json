@@ -1,0 +1,6 @@
+{
+  "name": "Currenzo",
+  "description": "Currenzo is a modern global currency converter and smart calculator supporting real-time exchange rates across 10 major global currencies including EUR, GBP, JPY, CNY, USD, INR, PKR, AUD, RUB, and IRR.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
